@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1e099fdf9ee74bb4380c410fe8726b5a
+  m_SerializeEntries:
+  - m_GUID: 1317265bd367bf24c8c9252ba14c8797
+    m_Address: Assets/Samples/Localization/1.4.3/Smart Strings - Persistent Variables/String
+      Table/Gender Sample Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27153e20147c06c4c8d1304d28104a87
+    m_Address: Assets/Samples/Localization/1.4.3/Smart Strings - Persistent Variables/String
+      Table/Global Variables Sample Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d78ec73b0b516154a8143e8b0e23fb19
+    m_Address: Assets/Localisation/Tables/UI Text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be22687fcde7e8b4b8d7db85ea4a60c1
+    m_Address: Assets/Localisation/Tables/TimeEvent Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5bae44a3a4155d46811b2ae79724edb
+    m_Address: textTimeOut
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56aa83f73e2719d48946062d1087ae31
+    m_Address: Assets/Localisation/Tables/Menu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72b6679dd4e8dab4982cc8416b8545fc
+    m_Address: LanguagesTitle 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 586a26e01d632ea4ca4e1f032bf4b734
+    m_Address: SkinShop Text
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2a9b46990dda5e418bfa863be9a9d8d
+    m_Address: MusicDelText-Recovered
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61c5a0bae0111e242a24b7c8237e8237
+    m_Address: DialogBoxEraseData-Recovered
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0787924c319cb6468440104e200fdde
+    m_Address: Text EraseDatadialog-Recovered
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df54b974d2cbb1248a596ab24a2a5689
+    m_Address: Assets/Localisation/Tables/Level1 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 097aad34375c99a45b97abe0729236d1
+    m_Address: textWIN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2904cd901e98b94da59acf74e4564ae
+    m_Address: Assets/Localisation/Tables/Level1Txt Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2e9fa73b45198545b64520478d01bcd
+    m_Address: cestapopup
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2912be6a0faf7949aeb4eac7385c748
+    m_Address: Assets/Localisation/Tables/LevelInfoTxt Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0db0d3fda013824b9192bbf7ef61e75
+    m_Address: SkipButton
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-pt-BR
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b963a58a2da26c448b4e059e190f47e2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 75c6a9a0e2726cc44893cc5949bb8169, type: 2}
+    - {fileID: 11400000, guid: 4c65af9ec0ea233489215bb594792183, type: 2}
