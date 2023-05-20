@@ -14,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.GetInt("aliensDefeated", counter);
         faint = GetComponent<Animator>();
         maxHealth = health;
         counter = 0;
@@ -28,7 +29,14 @@ public class EnemyHealth : MonoBehaviour
         {
             Destroy(gameObject, 1.1f);
             faint.Play("Explosion");
+            SaveScore();
             counter++;
         }
+    }
+
+    public void SaveScore()
+    {
+        PlayerPrefs.SetInt("aliensDefeated", counter);
+        PlayerPrefs.Save();
     }
 }
