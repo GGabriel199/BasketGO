@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Menu_es 1
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 56aa83f73e2719d48946062d1087ae31, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92002951168
+    m_Localized: 72b6679dd4e8dab4982cc8416b8545fc[LanguagesTitle 1_1]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70226124800
+    m_Localized: 586a26e01d632ea4ca4e1f032bf4b734[SkinShop Text_2]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27712659456
+    m_Localized: e3b890f9cb354c443ba44250896e9979[Title Text_2]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45429399552
+    m_Localized: e3b890f9cb354c443ba44250896e9979[Title Text_5]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067411902930944
+    m_Localized: c2a9b46990dda5e418bfa863be9a9d8d[MusicDelText-Recovered_1]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067925721948160
+    m_Localized: c2a9b46990dda5e418bfa863be9a9d8d[MusicDelText-Recovered_4]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068595166420992
+    m_Localized: 61c5a0bae0111e242a24b7c8237e8237[DialogBoxEraseData-Recovered_5]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068764079431680
+    m_Localized: 61c5a0bae0111e242a24b7c8237e8237[DialogBoxEraseData-Recovered_3]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1069767424057344
+    m_Localized: a0787924c319cb6468440104e200fdde[Text EraseDatadialog-Recovered_2]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7860993343201280
+    m_Localized: e0db0d3fda013824b9192bbf7ef61e75[SkipButton_2]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16954043835195392
+    m_Localized: 147afbe273bf0c0488715a1c2a1de655[ES-MX]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
