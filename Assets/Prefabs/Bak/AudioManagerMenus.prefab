@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &115875458553956304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115875458553956306}
+  - component: {fileID: 115875458553956307}
+  m_Layer: 0
+  m_Name: AudioManagerMenus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115875458553956306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115875458553956304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 45.21757}
+  m_LocalScale: {x: 0.40778, y: 0.40778, z: 0.40778}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115875458553956307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115875458553956304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e4c56f62b37294d935d11fe9d7109c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 4db085eb2d04f9940812893de8d54bd7, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitGround
+    clip: {fileID: 8300000, guid: b0a74bba1ff72fe4e8c2fbb362d23407, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitplate
+    clip: {fileID: 8300000, guid: 8aec86b0b8e4d2a47af4927664d338e3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitBasket
+    clip: {fileID: 8300000, guid: 3e86d5e1c3d497d4695abcbfd0bd3131, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: LevelComplete
+    clip: {fileID: 8300000, guid: fd4643a7a9e2e4949aad758ed6e77bf7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: CoinCollected
+    clip: {fileID: 8300000, guid: 4a118a7e6c485b249a35739cee420dc3, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitWall
+    clip: {fileID: 8300000, guid: 75cb554d052c0e048942aeb71a4bb093, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 336a7d3177f4c314d8b8dd715b6826ae, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: ClickOut
+    clip: {fileID: 8300000, guid: e3433fff5e94dbd419d725895595f8ef, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}

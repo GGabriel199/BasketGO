@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text
+  m_TableCollectionNameGuidString: d78ec73b0b516154a8143e8b0e23fb19
+  m_Entries:
+  - m_Id: 11082244096
+    m_Key: Teste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2947471706529792
+    m_Key: App Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7735825635581952
+    m_Key: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7736560985153536
+    m_Key: Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7737850150625280
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7737931209744384
+    m_Key: DialogueCutScene1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9918179368083456
+    m_Key: RewardINFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10138691608354816
+    m_Key: EndTxtButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10139101916143616
+    m_Key: EndGameMsg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10868145544601600
+    m_Key: StarsBonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13418748263112704
+    m_Key: SkinInfoDelete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14895544980578304
+    m_Key: StartGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15228653521444864
+    m_Key: RejectPolicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20291224712617984
+    m_Key: Rate Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292306868215808
+    m_Key: ButtonRate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292655859474432
+    m_Key: RemindLaterBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292689380352000
+    m_Key: NeverAskBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199370595016704
+    m_Key: SpaceTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199784618958848
+    m_Key: TimeEventTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22208793791012864
+    m_Key: ContinueButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209002126286848
+    m_Key: Levelbtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209564469207040
+    m_Key: GameModeBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22212080787365888
+    m_Key: startBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22223662544166912
+    m_Key: RateTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22233562246651904
+    m_Key: OptionsTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22235808313221120
+    m_Key: Maintance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22236477996769280
+    m_Key: GameModeTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22237834568900608
+    m_Key: LevelTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22240891478319104
+    m_Key: SkinShopTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22244045431349248
+    m_Key: LanguageTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22460082894512128
+    m_Key: 1000coins
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8487314206823546932
+  references:
+    version: 2
+    RefIds:
+    - rid: 8487314206823546932
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1678817656234

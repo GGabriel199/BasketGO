@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d78ec73b0b516154a8143e8b0e23fb19, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 8487314206823546933
+  m_TableData:
+  - m_Id: 11082244096
+    m_Localized: Hello (playerName)
+    m_Metadata:
+      m_Items:
+      - rid: 8487314206823546933
+  - m_Id: 2947471706529792
+    m_Localized: BasketGO!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7735825635581952
+    m_Localized: (Heli Pilot)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7736560985153536
+    m_Localized: Be carefull down there, those trampoline might be rusty, he he...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7737931209744384
+    m_Localized: So you're the one making scores, huh...
+    m_Metadata:
+      m_Items:
+      - rid: 8487314206823546933
+  - m_Id: 9918179368083456
+    m_Localized: You have gotten 10 coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10138691608354816
+    m_Localized: Claim Reward +50 coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10139101916143616
+    m_Localized: You've  finished the game for now, claim your reward, and wait for
+      new content soon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10868145544601600
+    m_Localized: "3 Star bonus (+\xA210)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13418748263112704
+    m_Localized: Skins are mantained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14895544980578304
+    m_Localized: Touch to Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15228653521444864
+    m_Localized: Decline (Quit)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20291224712617984
+    m_Localized: If you like BasketGO, leave your opinion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292689380352000
+    m_Localized: Never ask again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292655859474432
+    m_Localized: Later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292306868215808
+    m_Localized: Rate 5 STARS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199370595016704
+    m_Localized: Space Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199784618958848
+    m_Localized: Time Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22208793791012864
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209002126286848
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209564469207040
+    m_Localized: 'Game
+
+      mode'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22212080787365888
+    m_Localized: 'Start new
+
+      game'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22223662544166912
+    m_Localized: Rate US
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22233562246651904
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22235808313221120
+    m_Localized: Available soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22236477996769280
+    m_Localized: Game Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22237834568900608
+    m_Localized: Level Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22240891478319104
+    m_Localized: Skin Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22244045431349248
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22460082894512128
+    m_Localized: 'BUY
+
+      $1000 COINS'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8487314206823546933
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00a08d940200000000a00d819b7d1b00

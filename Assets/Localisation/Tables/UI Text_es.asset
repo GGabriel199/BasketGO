@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Text_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: d78ec73b0b516154a8143e8b0e23fb19, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 8487314206823546936
+  m_TableData:
+  - m_Id: 11082244096
+    m_Localized: Hola (playerName)
+    m_Metadata:
+      m_Items:
+      - rid: 8487314206823546936
+  - m_Id: 2947471706529792
+    m_Localized: BasketGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7735825635581952
+    m_Localized: (Piloto del heli)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7736560985153536
+    m_Localized: Cuidado, estos trampolines pueden estar oxidados, jaja...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7737931209744384
+    m_Localized: Entonces eres tu que ha ganando juegos, si...
+    m_Metadata:
+      m_Items:
+      - rid: 8487314206823546936
+  - m_Id: 9918179368083456
+    m_Localized: "\xA1Obtienes 10 monedas\r!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10138691608354816
+    m_Localized: Recibir recompensa +50 monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10139101916143616
+    m_Localized: "\xA1Has terminado el juego por ahora, reclama tu recompensa y espera
+      con ansias el nuevo contenido que llegar\xE1 pronto!\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10868145544601600
+    m_Localized: "Bonus 3 Estrellas (+\xA210)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13418748263112704
+    m_Localized: Skins se mantienen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14895544980578304
+    m_Localized: "Toque para comenzar\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15228653521444864
+    m_Localized: "Rechazar\r (Salir)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20291224712617984
+    m_Localized: "Si te gusta el BasketGO, deja tu opinion\r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292306868215808
+    m_Localized: "Califica con 5 ESTRELLAS\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292655859474432
+    m_Localized: "M\xE1s tarde\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20292689380352000
+    m_Localized: "\rNo vuelvas a preguntar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199370595016704
+    m_Localized: Evento espacial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22199784618958848
+    m_Localized: Evento de tiempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22208793791012864
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209002126286848
+    m_Localized: Nivel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22209564469207040
+    m_Localized: 'modo de
+
+      juego'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22212080787365888
+    m_Localized: 'comenzar
+
+      nuevo juego'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22223662544166912
+    m_Localized: Evaluar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22233562246651904
+    m_Localized: Opiciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22235808313221120
+    m_Localized: Disponible pronto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22236477996769280
+    m_Localized: Modos de Juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22237834568900608
+    m_Localized: Seleccionar Nivel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22240891478319104
+    m_Localized: Tenda de Skins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22244045431349248
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22460082894512128
+    m_Localized: 'COMPRA
+
+      $1000 MONEDAS'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8487314206823546936
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00a08d940200000000a00d819b7d1b00
