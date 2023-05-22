@@ -11,6 +11,8 @@ public class EnemyBullet : MonoBehaviour
 
     private void Start()
     {
+        FindObjectOfType<SoundManager>().Play("BallHitGround");
+
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -34,7 +36,8 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent < PlayerHealth>().health -= 10;
+            FindObjectOfType<SoundManager>().Play("BallHitplate");
+            other.gameObject.GetComponent <PlayerHealth>().health -= 10;
             Destroy(gameObject);
         }
     }

@@ -78,6 +78,12 @@ public class WaveSpawner : MonoBehaviour
         {
             nextWave++;
         }
+
+        if (nextWave == 4 && nextWave == 9)
+        {
+            FindObjectOfType<SoundManager>().StopPlaying("LevelTheme");
+            FindObjectOfType<SoundManager>().Play("TETheme");
+        }
     }
 
     bool EnemyIsAlive()

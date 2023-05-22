@@ -54,6 +54,20 @@ MonoBehaviour:
       the space!'
     m_Metadata:
       m_Items: []
+  - m_Id: 18056764533350400
+    m_Localized: 'Total
+
+      Record:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18088644653719552
+    m_Localized: 'Score:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18482973465485312
+    m_Localized: New record!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

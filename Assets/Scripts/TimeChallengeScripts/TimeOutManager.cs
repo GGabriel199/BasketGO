@@ -7,26 +7,24 @@ public class TimeOutManager : MonoBehaviour
 {
     [SerializeField] private static int scorePointsCol;      //amount of points in numbers
     [SerializeField] private static int scorePointsEnd;
-    private const string totalPoints = "totalPoints";        //amount of points registered in gameprefs
     public Text scorePoints;                                 //points showed in text format
     public Text scorePointsRec;                              //points showed in text format if time reaches 0
     public GameObject[] itens;                               //Objects removed after time ends
     public GameObject pointsPopUp;                           //points animated on screen &
+    public GameObject newRecord;
     private bool isTimeOver;                                 //what happens if time reaches 0
 
-    private void Awake()
-    {
-        scorePointsEnd = PlayerPrefs.GetInt(totalPoints);
-    }
     private void Start()
     {
-        scorePointsRec.text = scorePointsEnd.ToString();
+        PlayerPrefs.GetInt("totalPoints", scorePointsEnd);
+
         Time.timeScale = 1f;
     }
 
     private void Update()
     {
         scorePoints.text = scorePointsCol.ToString();
+        scorePointsRec.text = scorePointsEnd.ToString();
     }
 
     public void OnCollisionEnter2D(Collision2D col)
@@ -36,8 +34,8 @@ public class TimeOutManager : MonoBehaviour
             LeanTween.scale(pointsPopUp, new Vector3(1f, 1f, 1f), .8f).setEase(LeanTweenType.easeOutElastic);
             scorePointsCol++;
             FindObjectOfType<GlobalTime>().MoreTime();
-            ScorePoints();
             FindObjectOfType<SoundManager>().Play("Score");
+            ScorePoints();
         }
     }
 
@@ -50,18 +48,22 @@ public class TimeOutManager : MonoBehaviour
             itens[0].SetActive(false);
             FindObjectOfType<SoundManager>().Play("Start");
             FindObjectOfType<StartTEMusic>().FinishTEMusic();
+            if(scorePointsCol > scorePointsEnd)
+            {
+                newRecord.SetActive(true);
+                scorePointsEnd = scorePointsCol;
+            }
         }
     }
 
     void ScorePoints()
     {
-        PlayerPrefs.SetInt("totalPoints", scorePointsCol);
+        PlayerPrefs.SetInt("totalPoints", scorePointsEnd);
         PlayerPrefs.Save();
     }
 
     public void RestartEvent()
     {
         scorePointsCol = 0;
-        scorePointsEnd = scorePointsCol;
     }
 }

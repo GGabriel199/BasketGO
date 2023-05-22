@@ -47,6 +47,18 @@ MonoBehaviour:
     m_Key: WinPanelSpace
     m_Metadata:
       m_Items: []
+  - m_Id: 18056764533350400
+    m_Key: Record Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18088644653719552
+    m_Key: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18482973465485312
+    m_Key: New Record
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

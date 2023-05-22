@@ -24,6 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
         if(health <= 0)
         {
+            FindObjectOfType<Counter>().SaveScore();
             gameObject.SetActive(false);
             Time.timeScale = 0;
             deadPanel.SetActive(true);
