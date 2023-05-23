@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LevelInfoTxt Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LevelInfoTxt
+  m_TableCollectionNameGuidString: b2912be6a0faf7949aeb4eac7385c748
+  m_Entries:
+  - m_Id: 7999430656
+    m_Key: Part 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128149463040
+    m_Key: Part 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 771568279552
+    m_Key: NewContent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1472051668688896
+    m_Key: StartLevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1472431433555968
+    m_Key: StartLevel2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17025752244264960
+    m_Key: GameOverSpace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17027217922826240
+    m_Key: AdsTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17652070526853120
+    m_Key: WinPanelSpace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18056764533350400
+    m_Key: Record Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18088644653719552
+    m_Key: Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18482973465485312
+    m_Key: New Record
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8487314596636131330
+  references:
+    version: 2
+    RefIds:
+    - rid: 8487314596636131330
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1680313275039

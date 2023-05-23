@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LevelS/CutscenesSCenes/GameIntro.unity
+    guid: 29647dc0708589c4f9d67b6e4b2de8be
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1130d6adb948b084cb9a766a865bc612
+  - enabled: 1
+    path: Assets/Scenes/TimeEvent.unity
+    guid: 4788366db9c09a6459a7777fd9389e9c
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level1.unity
+    guid: 154e55713bc81344396ece35faf9afa6
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level2.unity
+    guid: 3ebe51e1d523e0b4e80591a6bccbef6a
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level3.unity
+    guid: 3dcb925e0d9f0844f9a938133e1c4140
+  - enabled: 1
+    path: Assets/Scenes/LevelS/CutscenesSCenes/HaroldIntrod.unity
+    guid: cfd75a3f26aff5c4f94236c383eee4af
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level4.unity
+    guid: 0a021dbf33655b047b59f909da4d8eec
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level5.unity
+    guid: 2c2f67a579fec9d449b26e858b5846ef
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level6.unity
+    guid: 4a2244425d0441e4cb130ae8738e766b
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level7.unity
+    guid: f3fe1e52654439747bd641e9b9962b78
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level8.unity
+    guid: 2118981d8006dc344ad0a3537df78935
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level9.unity
+    guid: a37521d0a4ebaf542af1ef683828ddbd
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level10.unity
+    guid: f86ce83dca0543d478b1caaeda294c39
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level11.unity
+    guid: 4a79586d8477a5146a98c6fa8bf148b7
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level12.unity
+    guid: ab0d70662837abb4499f46ef999c184a
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level13.unity
+    guid: 7cf77da95dce97140865ea8e8938cb1f
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level14.unity
+    guid: 946a1101ce33e174facef9523954ba43
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level15.unity
+    guid: 99d4ea1694ff4394c9bc7604d6f1422b
+  - enabled: 1
+    path: Assets/Scenes/LevelS/CutscenesSCenes/Cutscene3man.unity
+    guid: 721438f538cdd2048bcfa518aa8c914f
+  - enabled: 1
+    path: Assets/Scenes/LevelS/CutscenesSCenes/LevelPresentation/Level 16-.unity
+    guid: 8b35afbb05349a84b90007c9363ff930
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level16.unity
+    guid: 5a129b1e8e0ca0c4cb0754e27cc460a7
+  - enabled: 1
+    path: Assets/Scenes/LevelS/CutscenesSCenes/LevelPresentation/Level17-.unity
+    guid: 118f368234f754549a5de87e5304a0fe
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level17.unity
+    guid: c6f04e3b00452204faefef6b8fb7c6ee
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level18.unity
+    guid: 7fc60e6a35fc28342a5b8ea1de2d11ec
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level19.unity
+    guid: 132a95d7809fd08488e11e2dc5f53a05
+  - enabled: 1
+    path: Assets/Scenes/LevelS/Level20.unity
+    guid: eee22b1bd876b494888299fda7ee0020
+  - enabled: 1
+    path: Assets/Scenes/EndScreenPct.unity
+    guid: d056401123ecdcc49ad6fcde5f2579b3
+  - enabled: 1
+    path: Assets/Scenes/DestroyGlass.unity
+    guid: a9ce86e29d895c54295b3fcc1c2d4cf9
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: e11de3d200dee6843ba6f021d8778c52, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 18cd93c3cde07e045a6dd0a6de59cb92, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 45ce60703c472e14facb51535f4e022e, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: a1fa10daf2fe71f4c84d57460ab2f6df, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 627a5868412724d49b609d019b86334c, type: 2}

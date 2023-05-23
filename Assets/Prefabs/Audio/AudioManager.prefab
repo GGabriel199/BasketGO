@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7051103277727056425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7051103277727056427}
+  - component: {fileID: -7907422792794737384}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7051103277727056427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051103277727056425}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 45.21757}
+  m_LocalScale: {x: 0.40778, y: 0.40778, z: 0.40778}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7907422792794737384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051103277727056425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e4c56f62b37294d935d11fe9d7109c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Start
+    clip: {fileID: 8300000, guid: cbad3a919e4cbc042ae1b7494b993421, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitGround
+    clip: {fileID: 8300000, guid: d05ecca3fc1d6e0438dc79285578cb51, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitplate
+    clip: {fileID: 8300000, guid: 4792194072650fb47be847a55fbb784e, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitBasket
+    clip: {fileID: 8300000, guid: 3e86d5e1c3d497d4695abcbfd0bd3131, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: LevelComplete
+    clip: {fileID: 8300000, guid: 39787275bcecaa64ead993d782df57d6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: CoinCollected
+    clip: {fileID: 8300000, guid: 64d2044e8e8066c48bbc37e7e264e719, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: BallHitWall
+    clip: {fileID: 8300000, guid: d05ecca3fc1d6e0438dc79285578cb51, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 336a7d3177f4c314d8b8dd715b6826ae, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: ClickOut
+    clip: {fileID: 8300000, guid: e3433fff5e94dbd419d725895595f8ef, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: LevelTheme
+    clip: {fileID: 8300000, guid: f529157808029944cb79b45a2012d7b5, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: MenuTheme
+    clip: {fileID: 8300000, guid: 30c2282662a58c54eacfb322d3e560a6, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: TETheme
+    clip: {fileID: 8300000, guid: 8f8d375b495fd084591e2a2bfa36399a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Seagull
+    clip: {fileID: 8300000, guid: 93e10228ca0ff3e4dad6e7d3d82bd480, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: HitPlane
+    clip: {fileID: 8300000, guid: 3e653b5fe37546540bb72f6505107d66, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: HitTubes
+    clip: {fileID: 8300000, guid: 3e653b5fe37546540bb72f6505107d66, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Score
+    clip: {fileID: 8300000, guid: 65a40bfaad33e01429f47eeb98972aa9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
