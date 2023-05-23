@@ -36,7 +36,7 @@ public class BannerAds : MonoBehaviour
         };
 
         // Load the Ad Unit with banner content:
-        Advertisement.Banner.Load(_adUnitId, options);
+        Advertisement.Banner.Load(_androidAdUnitId, options);
     }
 
     // Implement code to execute when the loadCallback event triggers:

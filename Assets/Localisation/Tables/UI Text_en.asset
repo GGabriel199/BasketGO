@@ -71,7 +71,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20291224712617984
-    m_Localized: If you like BasketGO, leave your opinion.
+    m_Localized: 'If you like
+
+      Basket GO!,
+
+      leave your opinion.'
     m_Metadata:
       m_Items: []
   - m_Id: 20292689380352000

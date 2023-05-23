@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1983474937896269245}
   - component: {fileID: 597857033441996663}
   - component: {fileID: 1450645660826930541}
-  - component: {fileID: 3758176048908849411}
+  - component: {fileID: 4369377997740013700}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: projectile
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 15
---- !u!61 &3758176048908849411
-BoxCollider2D:
+--- !u!58 &4369377997740013700
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -135,15 +135,5 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 0.96}
-    newSize: {x: 1, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96, y: 0.96}
-  m_EdgeRadius: 0
+  m_Radius: 0.48

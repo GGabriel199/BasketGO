@@ -75,15 +75,15 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: LevelComplete
     clip: {fileID: 8300000, guid: 39787275bcecaa64ead993d782df57d6, type: 3}
-    volume: 0.5
+    volume: 1
     pitch: 1
     loop: 0
     mute: 0
     source: {fileID: 0}
   - name: CoinCollected
     clip: {fileID: 8300000, guid: 64d2044e8e8066c48bbc37e7e264e719, type: 3}
-    volume: 0.1
-    pitch: 1.2
+    volume: 1
+    pitch: 1
     loop: 0
     mute: 0
     source: {fileID: 0}

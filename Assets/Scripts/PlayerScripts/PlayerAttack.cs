@@ -8,7 +8,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Enemy"))
         {
-            col.gameObject.GetComponent<EnemyHealth>().health -= 40;
+            FindObjectOfType<EnemyHealth>().health -= 40;
             FindObjectOfType<SoundManager>().Play("HitPlane");
         }
     }

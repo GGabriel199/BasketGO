@@ -30,7 +30,7 @@ public class EnemyAI : MonoBehaviour
                 timer = 0;
                 Shoot();
             }
-        }        
+        }
     }
 
     void Shoot()

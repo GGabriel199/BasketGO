@@ -64,6 +64,15 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
         Advertisement.Show(_adUnitId, this);
     }
 
+    public void OnAdShow(string adUnitId, UnityAdsShowCompletionState showCompletionState)
+    {
+        if (adUnitId.Equals(_adUnitId) && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
+        {
+            FindObjectOfType<PlayerHealth>().Revive();
+            Advertisement.Load(_adUnitId, this);
+        }
+    }
+
     // Implement the Show Listener's OnUnityAdsShowComplete callback method to determine if the user gets a reward:
     public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState)
     {
@@ -72,7 +81,6 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
             Debug.Log("Unity Ads Rewarded Ad Completed");
             // Grant a reward.
             FindObjectOfType<ScoreGame>().ReceiveReward();
-            FindObjectOfType<PlayerHealth>().Revive();
 
             // Load another ad:
             Advertisement.Load(_adUnitId, this);

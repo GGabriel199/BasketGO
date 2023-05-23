@@ -18,8 +18,8 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] waves;
     private int nextWave = 0;
 
-    public float timeBetweenWaves = 5f;
-    public float waveCountdown;
+    private float timeBetweenWaves = 3f;
+    private float waveCountdown;
     public Transform[] spawnPoint;
 
     private float searchCountdown = 1f;
@@ -77,6 +77,12 @@ public class WaveSpawner : MonoBehaviour
         else
         {
             nextWave++;
+        }
+
+        if (nextWave == 4 && nextWave == 9)
+        {
+            FindObjectOfType<SoundManager>().StopPlaying("LevelTheme");
+            FindObjectOfType<SoundManager>().Play("TETheme");
         }
     }
 
