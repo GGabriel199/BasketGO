@@ -9,12 +9,13 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Image healthBar;
     public GameObject deadPanel;
+    public Animator anim;
 
     void Start()
     {
         Time.timeScale = 1;
-
         maxHealth = health;
+        InterstitialAd.instance.deaths++;
     }
 
     // Update is called once per frame
@@ -22,12 +23,22 @@ public class PlayerHealth : MonoBehaviour
     {
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
 
-        if(health <= 0)
+        if (health <= 0)
         {
             FindObjectOfType<Counter>().SaveScore();
-            gameObject.SetActive(false);
-            Time.timeScale = 0;
-            deadPanel.SetActive(true);
+            anim.Play("PlayerExplosion");
+            Invoke("End", .5f);
+        }
+    }
+
+    public void End()
+    {
+        deadPanel.SetActive(true);
+        Time.timeScale = 0f;
+        if (InterstitialAd.instance.deaths >= 3)
+        {
+            InterstitialAd.instance.deaths = 0;
+            InterstitialAd.instance.ShowAd();
         }
     }
 
@@ -35,7 +46,6 @@ public class PlayerHealth : MonoBehaviour
     {
         deadPanel.SetActive(false);
         Time.timeScale = 1;
-        gameObject.SetActive(true);
         health += 100;
     }
 }

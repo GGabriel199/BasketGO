@@ -6,7 +6,7 @@ public class GlobalTime : MonoBehaviour
 {
     public Text timerText;
 
-    private static float currentTime = 10;
+    private static float currentTime = 60;
     private bool countDown = true;
     
     private bool hasLimit = true;
@@ -64,12 +64,12 @@ public class GlobalTime : MonoBehaviour
     public void TimeOver()
     {
         timeOutScreen.SetActive(true);
-        currentTime = 10;
+        currentTime = 60;
     }
 
     public void RestartTime()
     {
-        currentTime = 10;
+        currentTime = 60;
     }
 
     public void MoreTime()

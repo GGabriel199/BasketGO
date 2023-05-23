@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAI : MonoBehaviour
+public class BossAI : MonoBehaviour
 {
     public GameObject bullet;
 
@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (timer > 2)
+            if (timer > .8)
             {
                 timer = 0;
                 Shoot();

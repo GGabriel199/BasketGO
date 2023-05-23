@@ -42,7 +42,7 @@ public class InterstitialAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSho
 
         // Note that if the ad content wasn't previously loaded, this method will fail
         Debug.Log("Showing Ad: " + _adUnitId);
-        Advertisement.Show(_adUnitId, this);
+        Advertisement.Show(_androidAdUnitId, this);
         Time.timeScale = 0f;
     }
 
