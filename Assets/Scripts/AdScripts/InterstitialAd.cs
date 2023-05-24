@@ -32,7 +32,7 @@ public class InterstitialAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSho
     {
         // IMPORTANT! Only load content AFTER initialization (in this example, initialization is handled in a different script).
         Debug.Log("Loading Ad: " + _adUnitId);
-        Advertisement.Load(_androidAdUnitId, this);
+        Advertisement.Load(_adUnitId, this);
     }
 
     // Show the loaded content in the Ad Unit:
@@ -42,7 +42,7 @@ public class InterstitialAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSho
 
         // Note that if the ad content wasn't previously loaded, this method will fail
         Debug.Log("Showing Ad: " + _adUnitId);
-        Advertisement.Show(_androidAdUnitId, this);
+        Advertisement.Show(_adUnitId, this);
         Time.timeScale = 0f;
     }
 

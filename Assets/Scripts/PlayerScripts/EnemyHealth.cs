@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
     public float health = 1;
     public float maxHealth;
-
+    public Image healthBar;
     public Animator defeat;
 
     void Start()
@@ -17,8 +18,14 @@ public class EnemyHealth : MonoBehaviour
 
     void Update()
     {
+        healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
+
         EnemyDefeat();
         FindObjectOfType<Counter>().IncreaseScore();
+        if (Time.timeScale == 0f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void EnemyDefeat()

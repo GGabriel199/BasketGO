@@ -66,6 +66,14 @@ MonoBehaviour:
     m_Localized: Novo recorde!
     m_Metadata:
       m_Items: []
+  - m_Id: 19197345900896256
+    m_Localized: Chefe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19198085700624384
+    m_Localized: Nave extraterrestre
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
