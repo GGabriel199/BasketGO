@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class WaveSpawner : MonoBehaviour
 
     public Wave[] waves;
     private int nextWave = 0;
-
+    public Slider slider;
     private float timeBetweenWaves = 3f;
     private float waveCountdown;
     public Transform[] spawnPoint;
@@ -77,12 +78,8 @@ public class WaveSpawner : MonoBehaviour
         else
         {
             nextWave++;
-        }
-
-        if (nextWave == 4 && nextWave == 9)
-        {
-            FindObjectOfType<SoundManager>().StopPlaying("LevelTheme");
-            FindObjectOfType<SoundManager>().Play("TETheme");
+            slider.value++;
+            FindObjectOfType<SoundManager>().Play("Start");
         }
     }
 
