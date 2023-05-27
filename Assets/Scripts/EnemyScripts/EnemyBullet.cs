@@ -39,10 +39,6 @@ public class EnemyBullet : MonoBehaviour
             FindObjectOfType<SoundManager>().Play("BallHitplate");
             other.gameObject.GetComponent <PlayerHealth>().health -= 10;
             Destroy(gameObject);
-            if (FindObjectOfType<PlayerHealth>().health <= 0)
-            {
-                Destroy(gameObject);
-            }
         }
     }
 }

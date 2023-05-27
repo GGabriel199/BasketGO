@@ -21,7 +21,6 @@ public class EnemyHealth : MonoBehaviour
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
 
         EnemyDefeat();
-        FindObjectOfType<Counter>().IncreaseScore();
         if (Time.timeScale == 0f)
         {
             Destroy(gameObject);
@@ -34,6 +33,13 @@ public class EnemyHealth : MonoBehaviour
         {
             defeat.Play("Explosion");
             Destroy(gameObject, defeat.GetCurrentAnimatorStateInfo(0).length);
+            Invoke("IncreaseScore", 1f);
         }
+    }
+
+    bool IncreaseScore()
+    {
+        FindObjectOfType<Counter>().IncreaseScore(1);
+        return true;
     }
 }

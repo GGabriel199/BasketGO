@@ -87,11 +87,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 22199370595016704
-    m_Localized: Evento espacial
+    m_Localized: 'Evento
+
+      espacial'
     m_Metadata:
       m_Items: []
   - m_Id: 22199784618958848
-    m_Localized: Contra o tempo
+    m_Localized: 'Contra
+
+      o tempo'
     m_Metadata:
       m_Items: []
   - m_Id: 22208793791012864
