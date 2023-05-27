@@ -9,7 +9,6 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Image healthBar;
     public GameObject deadPanel;
-    public Animator anim;
 
     void Start()
     {
@@ -26,7 +25,6 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             FindObjectOfType<Counter>().SaveScore();
-            anim.Play("PlayerExplosion");
             Invoke("End", .5f);
         }
     }
@@ -35,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
     {
         deadPanel.SetActive(true);
         Time.timeScale = 0f;
+        FindObjectOfType<RemoveIcons>().Remove();
         if (InterstitialAd.instance.deaths >= 3)
         {
             InterstitialAd.instance.deaths = 0;

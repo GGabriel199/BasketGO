@@ -59,6 +59,14 @@ MonoBehaviour:
     m_Key: New Record
     m_Metadata:
       m_Items: []
+  - m_Id: 19197345900896256
+    m_Key: Boss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19198085700624384
+    m_Key: alien spaceship
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

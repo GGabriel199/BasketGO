@@ -68,6 +68,14 @@ MonoBehaviour:
     m_Localized: New record!
     m_Metadata:
       m_Items: []
+  - m_Id: 19197345900896256
+    m_Localized: Boss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19198085700624384
+    m_Localized: Alien Spaceship
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

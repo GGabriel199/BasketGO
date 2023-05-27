@@ -29,11 +29,11 @@ public class Counter : MonoBehaviour
         totalAliensDefeated.text = counter.ToString();
     }
 
-    public void IncreaseScore()
+    public void IncreaseScore(int scoreToAdd)
     {
         if(FindObjectOfType<EnemyHealth>().health <= 0)
         {
-            counterNow++;
+            counterNow += scoreToAdd;
             FindObjectOfType<SoundManager>().Play("BallHitBasket");
             if (counterNow > counter)
             {
