@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Japanese
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Japanese
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f383fb35adc3c6446b5683606608bfe7
+  m_SerializeEntries:
+  - m_GUID: 14f67f3163c9262499cbae6ef34fcb36
+    m_Address: 640px-Flag_of_Japan_(with_border)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90cd64508a304d44fbd8498e89d67faa
+    m_Address: Musica jap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d16f9b808baf7541a7b19d728347f1e
+    m_Address: delete data jap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91729d2fd8335ee43ac6459387f4d066
+    m_Address: "\u3059\u3079\u3066\u306E\u30C7\u30FC\u30BF\u3092\u524A\u9664\u3057\u3066\u3082\u3088\u308D\u3057\u3044\u3067\u3059\u304B"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aaff163b435cc142b92838d7a06906a
+    m_Address: DialogBoxEraseDataJap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b963a58a2da26c448b4e059e190f47e2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6b2a5382d843a7e428c21e65f29f0595, type: 2}
+    - {fileID: 11400000, guid: 2be3ae9edee3d7b4d883c7f77bb20cc0, type: 2}

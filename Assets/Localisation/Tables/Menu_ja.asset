@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Menu_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 56aa83f73e2719d48946062d1087ae31, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 16954043835195392
+    m_Localized: 14f67f3163c9262499cbae6ef34fcb36[640px-Flag_of_Japan_(with_border)]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067411902930944
+    m_Localized: 90cd64508a304d44fbd8498e89d67faa[Musica jap]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067925721948160
+    m_Localized: 9d16f9b808baf7541a7b19d728347f1e[delete data jap]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1069767424057344
+    m_Localized: "91729d2fd8335ee43ac6459387f4d066[\u3059\u3079\u3066\u306E\u30C7\u30FC\u30BF\u3092\u524A\u9664\u3057\u3066\u3082\u3088\u308D\u3057\u3044\u3067\u3059\u304B_0]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068595166420992
+    m_Localized: 7aaff163b435cc142b92838d7a06906a[DialogBoxEraseDataJap_0]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068764079431680
+    m_Localized: 7aaff163b435cc142b92838d7a06906a[DialogBoxEraseDataJap_1]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

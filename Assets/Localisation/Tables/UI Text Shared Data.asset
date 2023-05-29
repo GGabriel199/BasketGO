@@ -31,10 +31,6 @@ MonoBehaviour:
     m_Key: Dialogue
     m_Metadata:
       m_Items: []
-  - m_Id: 7737850150625280
-    m_Key: New Entry
-    m_Metadata:
-      m_Items: []
   - m_Id: 7737931209744384
     m_Key: DialogueCutScene1
     m_Metadata:

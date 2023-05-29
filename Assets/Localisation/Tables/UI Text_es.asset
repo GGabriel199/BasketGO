@@ -25,7 +25,7 @@ MonoBehaviour:
       m_Items:
       - rid: 8487314206823546936
   - m_Id: 2947471706529792
-    m_Localized: BasketGO
+    m_Localized: Basket GO!
     m_Metadata:
       m_Items: []
   - m_Id: 7735825635581952
@@ -107,11 +107,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 22209564469207040
-    m_Localized: 'modo de
+    m_Localized: 'Modo de
 
       juego'
     m_Metadata:
-      m_Items: []
+      m_Items:
+      - rid: 8487314206823546936
   - m_Id: 22212080787365888
     m_Localized: 'comenzar
 
@@ -158,4 +159,4 @@ MonoBehaviour:
     - rid: 8487314206823546936
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 00a08d940200000000a00d819b7d1b00
+        m_Entries: 00a08d940200000000a00d819b7d1b0000a0cd307be74e00
