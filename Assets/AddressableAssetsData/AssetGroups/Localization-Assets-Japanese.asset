@@ -47,6 +47,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ja
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cb604b4f9b3e2f44b67a9d198e67932
+    m_Address: textWINJap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c2e6e185b02aeb46882faddb5db2761
+    m_Address: skipbuttonJap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 106bfc93276ad2e4792349d72d01be9e
+    m_Address: cestapopupJap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce976f5d4696a0f4a8d705a25e2b333e
+    m_Address: textTimeOutJap
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b963a58a2da26c448b4e059e190f47e2, type: 2}
   m_SchemaSet:

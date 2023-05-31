@@ -42,6 +42,10 @@ MonoBehaviour:
     m_Localized: 7aaff163b435cc142b92838d7a06906a[DialogBoxEraseDataJap_1]
     m_Metadata:
       m_Items: []
+  - m_Id: 7860993343201280
+    m_Localized: 9c2e6e185b02aeb46882faddb5db2761[skipbuttonJap_0]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
