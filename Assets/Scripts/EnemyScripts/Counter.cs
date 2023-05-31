@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     private static int counter;
-    private int counterNow;
+    public int counterNow;
     public Text counterTxt;
     public Text totalAliensDefeated;
     public GameObject newRecord;
